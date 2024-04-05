@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ para ti mi sofi linda ♥</title>
+  <style>
+    .body {
+      background-color: rgb(220, 20, 143);
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 20%;
+      max-width: 512px;
+      border-radius: 5%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ me amas? ♥</h1>
+  <img src="tamo ❤.jpg" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">chi</button>
+  <button id="no">no 😡</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+        alert('💞de verdad me amas?, yo te amo mas y...💞');
+      alert('eres muy importante para mi mi niña linda, cuando estoy contigo mi mundo suena asi❤, eres lo mejor ');
+      location.href = 'https://sketchpad.app/es/';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
